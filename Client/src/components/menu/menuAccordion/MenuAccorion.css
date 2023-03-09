@@ -1,0 +1,20 @@
+.accordion_inner_element{
+    padding: 10px 10px 13px 55px;
+    cursor: pointer;
+    background-color: white;
+    background-image: linear-gradient(to right, white 50%, rgba(188,207,215, 0.6) 50%);
+    background-size: 200% 100%;
+    transition: background-position 0.5s ease;
+}
+.accordion_inner_element:hover{
+    background-position: -100% 0;
+    opacity: 0.6;
+}
+
+.about_us_button_menu{
+    border: 1px solid lightgrey;
+    width: 85%;
+    padding: 13px 0 13px 39px;
+    cursor: pointer;
+}
+
